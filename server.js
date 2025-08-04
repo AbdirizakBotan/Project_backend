@@ -12,7 +12,7 @@ const adminRouter = require("./Routes/adminRouter")
 app.use(userRouter)
 app.use(businessRouter)
 app.use('/api/admin', adminRouter)
-mongoose.connect("mongodb://localhost:27017/Business").then(()=>{
+mongoose.connect("mongodb+srv://onlinebusinessr205:VE6F5g0tuYGDUyb7@cluster0.n0gzv4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("Database Connected SuccessFully")
 })
 app.listen(1080,()=>{
