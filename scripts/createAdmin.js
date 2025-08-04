@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const Admin = require('../model/adminModel');
 
 async function createAdmin() {
-  await mongoose.connect('mongodb+srv://onlinebusinessr205:VE6F5g0tuYGDUyb7@cluster0.n0gzv4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+  await mongoose.connect('mongodb+srv://onlinebusinessr205:PzLXaCD2hsyCoMz8@business.i9x2ukr.mongodb.net/?retryWrites=true&w=majority&appName=business');
   const username = 'group';
   const email = 'admin@business.com'; // Add email
   const password = 'admin123';
