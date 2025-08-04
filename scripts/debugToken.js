@@ -4,7 +4,7 @@ const User = require('../model/userModel');
 
 async function debugToken() {
   try {
-    await mongoose.connect('mongodb://localhost:27017/Business');
+    await mongoose.connect('mongodb+srv://onlinebusinessr205:VE6F5g0tuYGDUyb7@cluster0.n0gzv4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
     console.log('Connected to database');
 
     // Check admin tokens
